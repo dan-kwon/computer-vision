@@ -54,6 +54,7 @@ class UNet(nn.Module):
             out_channels=3,
             kernel_size=1
         )
+        
     def forward(self, image):
         
         # encoder
